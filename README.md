@@ -47,8 +47,8 @@ Replicate
 Streamlit
 
 # To Run
-Flask Server: python backend.py
-Streamlit App: streamlit run llama2_chatbot.py
+Flask Server: python backend.py <br />
+Streamlit App: streamlit run llama2_chatbot.py <br />
 Chrome Extension: Load unpack the seeknspot_chrome_extension folder on extensions under Chrome
 
 # Link to Live Demo
