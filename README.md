@@ -1,4 +1,4 @@
-# seeknspot
+# SeekNSpot
 Seek the Questions, Spot the Answers – Intelligent Video Navigation Starts Here!
 
 # Inspiration
