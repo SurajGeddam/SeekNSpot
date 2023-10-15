@@ -1,4 +1,5 @@
 # seeknspot
+Seek the Questions, Spot the Answers – Intelligent Video Navigation Starts Here!
 
 # Inspiration
 As university students diving into advanced coursework, we are frequently met with extensive and highly technical lecture videos. We all have different learning styles and capabilities. Navigating these lectures to pinpoint specific information can be a daunting task. Recognizing this challenge, we were motivated to develop a tool that could automatically pinpoint content within these videos.
