@@ -42,6 +42,7 @@ Flask
 HTML
 JavaScript
 LLM
+Llama-2
 Python
 Replicate
 Streamlit
