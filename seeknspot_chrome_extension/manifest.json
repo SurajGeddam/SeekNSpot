@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "SeekNSpot",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Click to open panel"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "host_permissions": [
+    "http://localhost/"
+  ],
+  "permissions": [
+    "sidePanel",
+    "declarativeNetRequest",
+    "notifications",
+    "activeTab",
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    {
+        "resources": ["*"],
+        "matches": ["http://localhost/*"]
+    }
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "MacCtrl+Shift+Y"
+      },
+      "description": "Opens the extension"
+    }
+  }
+}
